@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "documentation-helper"
+version = "0.1.0"
+description = ""
+authors = ["Darlington02 <darlingtonnnam@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+langchain = "^0.3.7"
+black = "^24.10.0"
+tiktoken = "^0.8.0"
+openai = "^1.54.3"
+pinecone-client = "^5.0.1"
+unstructured = "^0.16.5"
+nltk = "^3.9.1"
+fastapi = "^0.115.4"
+jinja2 = "^3.1.4"
+uvicorn = "^0.32.0"
+streamlit = "^1.40.0"
+streamlit-chat = "^0.1.1"
+tqdm = "^4.67.0"
+langchain-pinecone = "^0.2.0"
+langchain-openai = "^0.2.6"
+langchain-community = "^0.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
